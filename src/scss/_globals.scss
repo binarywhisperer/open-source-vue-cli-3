@@ -1,0 +1,42 @@
+body{
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+a{
+  color: $color-vue-green;
+}
+
+h1{
+  text-align: center;
+  font-size:3rem;
+  font-weight: 700;
+  background: -webkit-linear-gradient($color-vue-green, $color-vue-blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom:4rem;
+}
+
+h2{
+    text-align: center;
+    font-size:2rem;
+    font-weight: 700;
+    background: -webkit-linear-gradient($color-vue-green, $color-vue-blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom:4rem;
+  }
+
+h3{
+  font-size:1.75rem;
+  margin-bottom:5px;
+}
+
+.section{
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  margin-bottom:2rem;
+}
+
+p{
+  font-size: 1.25rem;
+}

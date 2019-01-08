@@ -1,0 +1,32 @@
+.code-block{
+  margin: 35px 0;
+  font-family: 'Roboto Mono', monospace;
+  &__header{
+    font-size: 1.25rem;
+    color: #2b2b2b;
+  }
+  &__code {
+    font-size: 1.1rem;
+    width: fit-content;
+    padding: 20px 5vw;
+    background: #2b2b2b;
+    color: #eee;
+    border-radius: 2px;
+    &-line {
+      line-height: 2.5rem;
+
+      span {
+        color: $color-vue-green;
+      }
+
+      pre {
+        font-family: 'Roboto Mono', monospace;
+        color: #40a4bf;
+        font-size: 1.1rem;
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+      }
+    }
+  }
+}
